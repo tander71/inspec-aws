@@ -3,7 +3,7 @@ MAINTAINER Chef Software, Inc. <docker@chef.io>
 
 ARG TF_VERSION=0.12.3
 
-ENV AWS_REGION us-east-1
+ENV AWS_REGION eu-central-1
 ENV CHEF_LICENSE="accept-silent"
 
 ADD https://releases.hashicorp.com/terraform/${TF_VERSION}/terraform_${TF_VERSION}_linux_amd64.zip .
